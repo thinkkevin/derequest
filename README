@@ -1,0 +1,14 @@
+This is Connect compliance module which depends on dispatch.
+Use it before dispatch wich connect like:
+
+var connect = require('connect')
+,	dispatch = require('dispatch')
+,	derequest = require('derequest');
+
+var _derequestVars = { ... };
+var _dispatchVars = { ... };
+
+connect.createServer()
+	.use(derequest(_derequestVars)))
+	.use(dispatch(_dispatchVars))
+	.listen(8080);
