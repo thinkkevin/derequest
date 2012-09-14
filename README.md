@@ -2,6 +2,7 @@
 
 De-request could help you forward a request to a list of local files. It is a simple proxy for [Connect](http://github.com/senchalabs/connect) which works on top of [dispatch](http://github.com/caolan/dispatch).
 
+### Usage
 Use it before dispatch with connect like:
 
 	var path = require('path')
