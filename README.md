@@ -4,6 +4,11 @@ De-request could help you forward a request to a list of local files. It is a si
 
 Tip: Please use it before dispatch or connect.static.
 
+### Installation
+
+	npm install derequest
+
+
 ### Sample Usage
 Use it before dispatch with connect like:
 
